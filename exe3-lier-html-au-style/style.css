@@ -1,27 +1,105 @@
 @charset "utf-8";
 /* CSS Document */
-body{ font-family:Arial, Helvetica, sans-serif;color:#333;font-size:90%;}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #333;
+  font-size: 90%;
+}
 
-h1{ font-family:Georgia, "Times New Roman", Times, serif;color:#F50A62; font-size:190%; margin:20px 0 15px 0px; padding-left:15px; background-color:#F5F5F5;}
-h2{color:#FF8040; font-size:140%; margin:15px 0 6px 0px;}
-table + hr{ margin-top:25px;}
-hr + h2{ margin-top:25px;}
-ul + h2{ margin-top:30px;}
-h3{color:#CC8706; font-size:110%; margin:10px 0 3px 0px; background-image:url(images/puce-fleche.png); background-repeat:no-repeat; background-position:left center; margin-left:8px; padding:0px 0 0 13px;}
-p{ margin:3px 0 15px 0; text-align:justify;}
-ul{ list-style-image:url(images/puce.gif); margin-left:25px;}
-li{margin:10px 0 10px 0px; padding:0px;}
+h1 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #f50a62;
+  font-size: 190%;
+  margin: 20px 0 15px 0px;
+  padding-left: 15px;
+  background-color: #f5f5f5;
+}
 
-table{border:solid 1px #CC8706; border-collapse:collapse; }
-th{border:solid 1px #CC8706; text-align:left; padding:5px 8px;}
-td{border:solid 1px #CC8706; padding:5px;}
+h2 {
+  color: #ff8040;
+  font-size: 140%;
+  margin: 15px 0 6px 0px;
+}
 
-img{ border:none;}
-img.left{margin:5px 10px 5px 5px; float:left; }
+h3 {
+  color: #cc8706;
+  font-size: 110%;
+  margin: 10px 0 3px 0px;
+  background-image: url(images/puce-fleche.png);
+  background-repeat: no-repeat;
+  background-position: left center;
+  margin-left: 8px;
+  padding: 0px 0 0 13px;
+}
 
-a{font-size:90%; color:#FF8040;}
-a:hover{ color:#F50A62;}
+p {
+  margin: 3px 0 15px 0;
+  text-align: justify;
+}
 
-.signature{ text-align:right; margin-bottom:0;}
+img {
+  border: none;
+}
 
-hr{ border:0px; border-bottom:double 4px #CC8706; width:75%; margin-left:auto; margin-right:auto; margin-top:15px;}
+img.left {
+  margin: 5px 10px 5px 5px;
+  float: left;
+}
+
+.signature {
+  text-align: right;
+  margin-bottom: 0;
+}
+
+a {
+  font-size: 90%;
+  color: #ff8040;
+}
+
+a:hover {
+  color: #f50a62;
+}
+
+ul {
+  list-style-image: url(images/puce.gif);
+  margin-left: 25px;
+}
+
+li {
+  margin: 10px 0 10px 0px;
+  padding: 0px;
+}
+
+table {
+  border: solid 1px #cc8706;
+  border-collapse: collapse;
+}
+
+th {
+  border: solid 1px #cc8706;
+  text-align: left;
+  padding: 5px 8px;
+}
+td {
+  border: solid 1px #cc8706;
+  padding: 5px;
+}
+
+hr {
+  border: 0px;
+  border-bottom: double 4px #cc8706;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+}
+
+table + hr {
+  margin-top: 25px;
+}
+hr + h2 {
+  margin-top: 25px;
+}
+ul + h2 {
+  margin-top: 30px;
+}
