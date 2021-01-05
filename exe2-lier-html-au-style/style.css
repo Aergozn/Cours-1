@@ -4,6 +4,8 @@
 body {
   font-family: Verdana, Geneva, sans-serif;
   font-size: 12px;
+  margin: 0;
+  padding: 0;
   background-color: #fff;
   margin: 10px 50px;
 }
@@ -11,29 +13,32 @@ h1 {
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 20px;
   color: #000000;
-  background-color: #90c;
+  background-color: #a64d94;
   padding: 15px;
   margin: 0;
   text-align: center;
   border-radius: 15px;
 }
+
 h2 {
   font-size: 16px;
   color: #00cdcd;
   margin: 0;
 }
+
 ul {
-  list-style-type: square;
+  list-style-type: disc;
 }
 
 p + p {
   margin: 12px 0;
 }
+
 h2 + p {
   margin: 3px 0 5px 0;
 }
 p + h2 {
-  margin-top: 30px;
+  margin-top: 0px;
 }
 
 h2 + ul {
