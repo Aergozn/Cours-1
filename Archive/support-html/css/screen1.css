@@ -1,0 +1,18 @@
+/* Ceci est un commentaire */
+
+/* la propriété * s'applique à tous les éléments présent sur une page! */
+* {
+    box-sizing: border-box;
+}
+
+/* cette propriété ne va s'appliquer que sur les titres de niveaux 1 */
+h1{
+    color: red;
+    font-size: 30px;
+}
+
+/* cette propriété ne va s'appliquer que sur les paragraphes... */
+p{
+    color: green;
+    font-size: 14px;
+}
