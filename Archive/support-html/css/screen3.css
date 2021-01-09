@@ -1,0 +1,19 @@
+/* tous les éléments */
+* {
+    
+}
+
+.box {
+    background: red;
+    color: white;
+    border: 1px green solid;
+    
+    padding: 10px 15px;
+    margin: 20px 10px 30px 40px;
+}
+
+.display {
+    background: red;
+    color: white;
+    display: inline;
+}
