@@ -1,0 +1,80 @@
+/* tous les éléments */
+* {
+    
+}
+
+/* uniquement sur body */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+}
+
+img.logo {
+    width: auto; 
+    height: 300px;
+}
+
+/* vous pouvez utilisé le nom de la propriété p#p-unique ou uniquement son id #p-unique */
+
+p#p-unique {
+    color: purple;
+    
+    font-family: Verdana, sans-serif;
+}
+
+p.p-class {
+    color: green;
+}
+
+
+
+/* il est possible de sélectionner plusieurs propriété d'un coup... */
+
+h1, h2 {
+    color: red;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 0.5em 1em;
+}
+
+table tr:nth-child(even) {
+    background: #ccc;
+}
+
+table tr:nth-child(odd) {
+    background: #fff;
+}
+
+table tr td:first-child {
+    background: red;
+    color: white;
+}
+
+table tr:nth-child(odd) td:first-child {
+    background: green;
+    color: white;
+}
+
+li {
+    list-style: none;
+}
+
+li strong{
+    display: inline-block;
+    width: 180px;
+    text-align: right;
+}
